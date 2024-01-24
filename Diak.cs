@@ -45,7 +45,6 @@ namespace Felvetelizok
             Matematika = splitelt[5] != "NULL" ? Int32.Parse(splitelt[5]) : -1;
             Magyar = splitelt[6] != "NULL" ? Int32.Parse(splitelt[6]) : -1;
         }
-        public Diak() { }
 
         public void ModositCSVSorral(String csvString)
         {
